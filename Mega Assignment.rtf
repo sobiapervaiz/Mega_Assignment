@@ -1,0 +1,318 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Times New Roman;}{\f2\fnil\fcharset2 Wingdings;}}
+{\colortbl ;\red255\green0\blue0;}
+{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs32\lang9 Mega Assignment\ulnone\b0\fs24\par
+
+\pard\sa200\sl276\slmult1 Note: All correct answers are highlighted in red colour.\par
+\b 1\b0 . Which of the following terms are related to dictionaries?\par
+\cf1 a. value\par
+b. item\par
+\cf0 c. index\par
+\cf1 d. key\par
+\cf0\b 2\b0 . Just like lists, + operator is used to extend dictionaries?\par
+a. True\par
+\cf1 b. False \par
+\cf0\b 3\b0 .  To access items from a dictionary, we specify the index of that item within [] like myDict[0]?\par
+a. True\par
+\cf1 b. False\cf0\par
+\b Reason\b0 : myDict[key] is specified to access items from Dictionary\par
+\b 4. \b0 When we use [] to access the value from a dictionary which does not exist in that dictionary\'85.?\par
+a. Value within [] is added to the dictionary\par
+b. Value None is returned\par
+c. New dictionary is created\par
+\cf1 d. None of above\cf0\par
+Reason: KeyError is generated\par
+\b 5\b0 . What does return the pop method of a dictionary?\par
+a. list\par
+b. tuple containing the pair of last item of the dictionary\par
+c. dictionary\par
+\cf1 d. value of the key, if it exists in the dictionary\cf0\par
+\b 6\b0 . What does return popitem method return?\par
+a. dictionary\par
+\cf1 b. tupple containing the pair of last item of the dictionary\cf0\par
+c. list\par
+d. value of key, if it exists in the dictionary\par
+\b 7. \b0 Which of the following 2 methods can be used to iterate through the items of a dictionary?\par
+\cf1 a. items()\cf0\par
+b. values()\par
+c. indexes()\par
+\cf1 d. keys()\par
+\cf0\b 8. \b0 Which one of the following is used to enclose a dictionary?\par
+a. () parenthesis\par
+\cf1 b. \{\} curly brackets\par
+\cf0 c. [] square brackets\par
+d. \ldblquote\rdblquote  quotation marks\par
+\b 9. \b0 Write Python Program add key-value pair in dictionary and check if a Given Key or Value or Both Exists in a Dictionary or Not.\par
+dict = \{\} #empty dictionary\par
+dict["name"] = "Sobia" #key:value pair added\par
+dict["fname"] = "Pervaiz"\par
+dict["course"] = "Python"\par
+\par
+key = (input("Enter key to be checked: ")).lower()\par
+value = (input("Enter value to be checked: ").capitalize())\par
+if key in dict.keys():  #keys checked\par
+    print("key found")\par
+else:\par
+    print("Key not found")\par
+\par
+if value in dict.values():  #values checked\par
+    print("Value found")\par
+else:\par
+    print("Value not found")\par
+\b 10. \b0 Write a Python Program to Count the Frequency of Words Appearing in a String Using a\par
+Dictionary and print only the words having Even (divisible by 2) frequency.\par
+string = i\par
+\b 11\b0 . X = ["Feb", "Apr", "Mar", "May", "Jun", "Jul", "Aug", "Jan"]. What will be output of following?\par
+X[0:3]  output: ["Feb", "Apr", "Mar"]\par
+X[2:8]  output:  ["Mar", "May", "Jun", "Jul", "Aug", "Jan"]. \par
+X[4:9]   output:  ["Jun", "Jul", "Aug", "Jan"]\par
+X[1:7:2]  output: ["Apr", "May", "Jul"]\par
+X[-1:-7]  output: [] #empty list\par
+X[-7:7]  output: ['Apr', 'Mar', 'May', 'Jun', 'Jul', 'Aug']\par
+X[-1:-8:-2]  output: ["Jan", "Jul", "May", "Apr"]\par
+X[:4]       output: ["Feb", "Apr", "Mar", "May"]\par
+\b 12. \b0 Remove the correct number from the list X\par
+X = [ 9,2,8,4,5]\par
+X__?__\par
+print (X)\par
+Output: [2,8,4,5]\par
+1) .delete(9)\par
+2) .rm(9)\par
+\cf1 3) .remove(9)\par
+\cf0\b 13. \b0 p = 3\par
+q = 'hello! '\par
+print( q __?__ p)\par
+hello! hello! hello!\par
+\cf1 1) *\cf0\par
+2) **\par
+3) +\par
+\b 14. \b0 y = "this is a random sentence"\par
+print (y__?__)\par
+Output: THIS IS A RANDOM SENTENCE\par
+\cf1 1) .upper()\par
+\cf0 2) .upcase()\par
+3) .capitalize()\par
+\b 15\b0 . p = True\par
+q = \lquote True\rquote\par
+r = 2\par
+r = 2.0\par
+print(type(p))\par
+\cf1 output: Boolean\par
+\cf0 print(type(q))\par
+\cf1 output: string\par
+\cf0 print(type(r))\cf1\par
+output: integer\par
+\cf0 print(type(s))\cf1\par
+output: float\par
+\cf0\b 16. \b0 What are the optional arguments to the function?\par
+function_1(R1, q, p=None, R2= None)\par
+1) q and R2\par
+\cf1 2) p and R2\cf0\par
+3) p and R1\par
+4) R1 and q\par
+\b 17. \b0 Which command invokes method X() of the object p?\par
+1) X(p)\par
+2) p$x()\par
+3) X().p\par
+\cf1 4) p.x()\par
+\cf0\b 18. \b0 X=4 , Y= 2\par
+print(X % Y)  \cf1 output: 0\cf0\par
+print(X / Y)   \cf1 output: 2.0\par
+\cf0 print(X // Y)  \cf1 output: 2\par
+\cf0 print(Y % X) \cf1 output: 2\par
+\cf0\b 19.a) \b0 x = [[4, 1, 1], [5, 9, 0]]\par
+for i in __?__:  \par
+for j in __?__: \par
+?\par
+Output:\par
+4\par
+1\par
+1\par
+5\par
+9\par
+0\par
+\cf1 Answer:\par
+ x = [[4, 1, 1], [5, 9, 0]]\par
+for i in x:\par
+    for j in i :\par
+        print(j)\par
+\cf0\b b) \b0 x = [[4, 1, 1], [5, 9, 0]]\par
+for i in ?:\par
+for j in ?:\par
+?\par
+Output: 4 5\par
+1 9\par
+1 0\par
+\cf1 Answer: \par
+x = [[4, 1, 1], [5, 9, 0]]\par
+for i in range(3):\par
+    for j in x:\par
+        print(j[i], end = " ")\par
+    print("")\par
+\cf0\b c)  \b0 x = [[4, 1, 1], [5, 9, 0]]\par
+for i in ?:\par
+for j in ?:\par
+?\par
+Output: 4 1 1 5 9 0\par
+\cf1 Answer: x = [[4, 1, 1], [5, 9, 0]]\par
+for i in range(3):\par
+    for j in x:\par
+        print(j[i], end = " ")\par
+\cf0 d)- x = [[4, 1, 1], [5, 9, 0]]\par
+for i in ?:\par
+for j in ?:\par
+?\par
+Output: 4 1 1\par
+5 9 0\par
+\cf1 Answer: x = [[4, 1, 1], [5, 9, 0]]\par
+for i in x:\par
+    for j in i:\par
+        print(j, end = " ")\par
+    print(" ")\par
+    \cf0\b 20- \b0 q = [10.62, 16.14, 6.45, 17.11]\par
+for ?, z in enumerate (q) :\par
+print( \lquote Item \lquote  + str( j ) + \lquote  - \lquote , str ( z ))\par
+Output: Item 0 \f1\endash  10.62\par
+Item 1 \endash  16.14\par
+Item 2 \endash  6.45\par
+Item 3 \endash  17.11\par
+1) z\par
+2) i\par
+3) j\par
+4) x\par
+5) k\par
+6) y\par
+\cf1\f0\lang1033 Answer: 3) j is the correct answer\par
+\cf0\b 21- \b0 Which of these about a dictionary is false?\par
+a) The values of a dictionary can be accessed using keys\par
+\cf1 b) The keys of a dictionary can be accessed using values\par
+\cf0 c) Dictionaries aren\rquote t ordered\par
+d) Dictionaries are mutable\par
+\b 22- \b0 What is the output of the following:\par
+D = dict()\par
+for i in range (3):\par
+for j in range(2):\par
+D[i] = j\par
+\cf1 a. \{0: 1, 1: 1, 2: 1\}\par
+\cf0 b. \{1: 0, 1: 1, 1: 2\}\par
+c. \{0: 1, 1: 2, 2: 3\}\par
+d. \{1: 2, 1: 1, 1: 0\}\par
+\b 23- \b0 You are writing a function that increments player score in a soccer game\par
+If no value is specified for points, then point must start with 1\par
+If no value is specified for bonus, then bonus should be True\par
+01 def increment_score ( bonus , score , points ):\par
+To meet the first requirement line 01 must be change to\par
+\f2 q\f0  def increment_score ( bonus , score , points = 1 ): (True or False)\par
+To meet the second requirement line 01 must be change to\par
+\f2 q\f0  def increment_score ( bonus = True , score , points = 1 ): (True or False)\par
+\f2 q\f0  Once a parameter is defined with default value, any parameter to the right must also be defined with default values (True or False)\par
+\cf1 Answer:\par
+\cf0 To meet the first requirement line 01 must be change to\par
+\f2 q\f0  def increment_score ( bonus , score , points = 1 ): \cf1 True\par
+\cf0 Reason: Default value is assigned\par
+To meet the second requirement line 01 must be change to\par
+\f2 q\f0  def increment_score ( bonus = True , score , points = 1 ):  \cf1 False\cf0\par
+Reason: It will generate error\par
+\f2 q\f0  Once a parameter is defined with default value, any parameter to the right must also be defined with default values :\cf1 True\cf0  \par
+Reason: Default arguments should follow positional arguments\par
+\b 24- \b0 What will be output?\par
+def avg ( x , y , z = 50 ):\par
+adding = x + y + z\par
+avg_value = adding / 3\par
+return avg_value\par
+y = avg ( x = 5 , y = 9 , z = 20 )\par
+print(y)\par
+\cf1 Answer: 11.333333333333334\par
+\cf0\b\lang9 25- \b0 What will be output? Describe it with reason and logic behind. Do multiple experiments with arguments / parameters to remove error, if occurs.\par
+def avg ( *opt_values , name ):\par
+avg_value = sum (opt_values) / len(opt_values)\par
+print(\lquote name is: \rquote  + name + \lquote Marks:  \rquote  + str(avg_value))\par
+avg ( 5 , 9 , 20, 34, 87, 112 , \lquote Ali\rquote  )\par
+\cf1 Answer:\par
+Logic: \cf0 The above function will give TypeError as "Ali" in function call is also considered as opt_values, so the function call should be changed to\par
+\cf1 avg ( 5 , 9 , 20, 34, 87, 112, name = "Ali"  )\cf0  \par
+\cf1 Output:  name is: AliMarks:  44.5\par
+\cf0\b 26\b0 - Final output is not required. Just take copy pencil, think and write the output of each line, write down the link between parameters and arguments. Remove one or two ** from other_info and observe the ouput.\par
+def display_result(winner, score, **other_info):\par
+print("The winner was " + winner)\par
+print("The score was " + score)\par
+display_result(winner=\ldblquote Manchester", score="1-0", overtime ="yes", injuries="none")\par
+\cf1 Answer:\par
+Output: The winner was Manchester\par
+The score was 1-0\par
+Reason: \cf0 ** allows to add multiple arguments to function at the time of function call. If * is removed, the code will generate TypeError.\par
+\b 27- \b0 The position of parameters and arguments is re-arranged. Just think and find the logic behind output or error.\par
+def display_result(winner, **other_info, score):\par
+print("The winner was " + winner)\par
+print("The score was " + score)\par
+display_result(winner=\ldblquote Manchester", overtime ="yes", injuries="none\ldblquote  , score="1-0\ldblquote  )\par
+\cf1 Answer:\par
+Output: Error generated\par
+Reason: \cf0 score is a positional argument and should be defined before key-word arguments **other_info\par
+\b 28- \b0 What will be the output of the following Python expression if X=123?\par
+print(\ldblquote %06d\rdblquote %X)\par
+a) 123000\par
+\cf1 b) 000123\par
+\cf0 c) 000000123\par
+d) 123000000\par
+\cf1 Reason:\cf0  adds three zero's to the left of X to make length 6.\par
+\b 29- \b0 What will be the output of the following Python expression if x=22.19?\par
+print("%5.2f"%x)\par
+a) 22.1900\par
+b) 22.00000\par
+\cf1 c) 22.19\par
+\cf0 d) 22.20\par
+\b 30- \b0 What will be the output of the following Python code?\par
+'\{0:f\}, \{1:2f\}, \{2:05.2f\}'.format(1.23456, 1.23456, 1.23456)\par
+a) Error\par
+b) \lquote 1.234560, 1.22345, 1.23\rquote\par
+c) No output\par
+\cf1 d) \lquote 1.234560, 1.234560, 01.23\rquote\par
+\cf0 31- Write down the output of each line after each iterations. Do multiple experiments to change values\par
+i = 1  \cf1 # counter\cf0\par
+while False:  \cf1 #condition = False, loop will not run\par
+\cf0 if i%2 == 0:   \par
+break    #\cf1 breaks for even number\cf0\par
+print(i)   \cf1 #prints counter\cf0\par
+i += 2   \cf1 #increment by 2 steps\par
+
+\pard\sa200\sl276\slmult1\qj Answer:\par
+Output: This code prints nothing being the False condition. If the indentation of print(i) is changed to outside the while loop(since indentation is not clear in code), then it prints 1 as output.\par
+If False is changed to True, then infinite loop runs as the condition is never break. as i=1,3,5,...\par
+\cf0\b 32\b0 - Write down the output of each line after each iterations. Do multiple experiments to change values\par
+x = "abcdef"  \cf1 #string value assigned to x\par
+\cf0 i = "a\cf1 "     #substring assigned to i\par
+\cf0 while i in x:\par
+x = x[:-1]  \cf1 #removes last alphabet from x\par
+\cf0 print(i, end = " ")  \cf1 # prints a\par
+Output: a a a a a a\par
+Reason: loop runs until a is removed from string\par
+\cf0\b 33- \b0 Write down the output of each line after each iterations. Do multiple experiments to change values\par
+for i in ''.join(reversed(list('abcd'))): \cf1 # converts string values into list, reverses the order in descending, joins each element of the list with string\cf0\par
+print (i)  #prints each element of the list\par
+\cf1 Answer: \par
+Output:\par
+d\par
+c\par
+b\par
+a\par
+\cf0\b 34- \b0 Flow of the program. Write the output of each line after every iteration of \lquote i\rquote\par
+for i in range(10):\par
+if i == 5:\par
+break\par
+else:\par
+print(i)\par
+else:\par
+print("Here")\u8203?\par
+\cf1 Answer:\par
+Output:\par
+0\par
+1\par
+2\par
+3\par
+4\par
+Reason: at i = 5, condition becomes False and breaks the loop. Last else is not executed as the whole loop has not been executed\par
+\par
+\par
+}
+ 
